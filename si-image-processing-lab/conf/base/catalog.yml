@@ -1,0 +1,7 @@
+raw_image:
+  type: kedro_datasets.pillow.ImageDataset
+  filepath: data/01_raw/input_image.png
+
+processed_image:
+  type: kedro_datasets.pillow.ImageDataset
+  filepath: data/03_primary/output_image.png
